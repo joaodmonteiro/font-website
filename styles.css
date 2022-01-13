@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Raleway';
-    src: url("Raleway-VariableFont_wght.ttf");
+    src: url("Raleway-VariableFont_wght.ttf") format('ttf');
   }
 
 ul {
@@ -9,7 +9,7 @@ ul {
     font-size: 200px;
     list-style: none;
     font-family: 'Raleway';
-    font-weight: 100 900;
+    /* font-weight: 100 900; */
 }
 
 li {
@@ -19,7 +19,7 @@ li {
 
 li:hover {
     /* font-size: 250px; */
-    font-weight: bold;
+    font-weight: 800;
 }
 
 .inputText {
