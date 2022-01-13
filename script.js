@@ -1,12 +1,13 @@
 let word = document.querySelector('#word');
 let inputText = document.querySelector('.inputText');
-let submitButton = document.querySelector('.submitButton');
 
-submitButton.addEventListener("click", function() {
+document.addEventListener("keyup", function() {
+    word.innerHTML = "";
 
-    // for(let i=0; i<inputText.value.length; i++)
-    // {
-    //     let char = document.createElement('li');
-    //     char.textContent = inputText.value
-    // }
+    for(let i=0; i<inputText.value.length; i++)
+    {
+        let char = document.createElement('li');
+        char.textContent = inputText.value[i];
+        word.appendChild(char);
+    }
 });

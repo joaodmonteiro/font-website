@@ -1,5 +1,6 @@
 ul {
     display: flex;
+    justify-content: center;
     font-size: 200px;
     list-style: none;
     font-family: 'Raleway';
@@ -14,4 +15,10 @@ li {
 li:hover {
     /* font-size: 250px; */
     font-weight: bold;
+}
+
+.inputText {
+    display: block;
+    margin: 0 auto;
+    font-size: 70px;
 }
