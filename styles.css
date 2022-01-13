@@ -1,10 +1,14 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url("Raleway-VariableFont_wght.ttf");
+  }
+
 ul {
     display: flex;
     justify-content: center;
     font-size: 200px;
     list-style: none;
     font-family: 'Raleway';
-    src: url('Raleway-VariableFont_wght.ttf');
     font-weight: 100 900;
 }
 
