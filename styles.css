@@ -1,6 +1,23 @@
 @font-face {
+    font-family: 'Inter';
+    src: url('Inter.var.woff2') format('woff2 supports variations'),
+        url('Inter.var.woff2') format('woff2-variations');
+    font-weight: 100 1000;
+	font-stretch: 25% 151%;
+  }
+
+  @font-face {
     font-family: 'Raleway';
-    src: url("Raleway-VariableFont_wght.ttf") format('ttf');
+    src: url('Raleway-VariableFont_wght.ttf');
+    font-weight: 100 1000;
+	font-stretch: 25% 151%;
+  }
+
+  @font-face {
+    font-family: 'Roboto Flex';
+    src: url('RobotoFlex[GRAD,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC,opsz,slnt,wdth,wght].ttf');
+    font-weight: 100 1000;
+	font-stretch: 25% 151%;
   }
 
 ul {
@@ -8,12 +25,11 @@ ul {
     justify-content: center;
     font-size: 200px;
     list-style: none;
-    font-family: 'Raleway';
-    /* font-weight: 100 900; */
+    font-family: 'Roboto Flex';
 }
 
 li {
-    transition: font-size .2s, font-weight .2s;
+    transition: font-size .2s, font-weight .5s;
     white-space: pre-wrap;
 }
 
