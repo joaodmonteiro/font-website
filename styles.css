@@ -1,0 +1,17 @@
+ul {
+    display: flex;
+    font-size: 200px;
+    list-style: none;
+    font-family: 'Raleway';
+    src: url('Raleway-VariableFont_wght.ttf');
+    font-weight: 100 900;
+}
+
+li {
+    transition: font-size .2s, font-weight .2s;
+}
+
+li:hover {
+    /* font-size: 250px; */
+    font-weight: bold;
+}
