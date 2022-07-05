@@ -20,6 +20,11 @@
 	font-stretch: 25% 151%;
   }
 
+  body {
+    display: grid;
+    place-items: center;
+  }
+
 ul {
     display: flex;
     justify-content: center;
@@ -29,13 +34,14 @@ ul {
 }
 
 li {
-    transition: font-size .2s, font-weight .5s;
+    transition: font-stretch .5s, font-weight .5s;
     white-space: pre-wrap;
 }
 
 li:hover {
-    /* font-size: 250px; */
+    font-stretch: 151%;
     font-weight: 800;
+    font-variation-settings: 'slnt' 10;
 }
 
 .inputText {
